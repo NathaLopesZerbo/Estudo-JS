@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movendo-se pelo DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/criando_nos_de_texto.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1 id="title">Titulo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-container">
+        <div class="product">
+            <h2>Produto 1</h2>
+            <p>Descrição</p>
+        </div>
+
+        <div class="product">
+            <h2>Produto 2</h2>
+            <p>Descrição</p>
+        </div>
+    </main>
+        <footer>
+            <p>Rodapé</p>
+        </footer>
+</body>
+</html>
+
+<!-- 
+    
+    Alterando HTML:
+    - Podemos mudar praticamente toda a página com DOM
+    - Adicionar, remover e até clonar elementos
+    - Alguns métodos muito utilizados são: 
+        insertBefore, appendChild, replaceChild
+
+----------------------------------------------------------------
+
+    Selecionando Elementos em DOM:
+    Pode ser por: classe, id, seletor de CSS
+    - getElementByTagName
+    - getElementById
+    - querySelector 
+
+-->
